@@ -37,6 +37,10 @@ header {
     width: 100%;
 }
 
+.w3-button{
+    border-radius: 3px;
+}
+
 span{
     color: var(--destaque);
 }
