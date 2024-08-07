@@ -39,6 +39,7 @@ header {
 
 .w3-button{
     border-radius: 3px;
+    margin: 5px;
 }
 
 span{
@@ -90,6 +91,17 @@ main {
     max-width: 45%;
     margin: 10px;
 }
+
+.project img{
+    aspect-ratio: 16/9;
+}
+
+.service img,
+.skill img{
+    aspect-ratio: 4/4;
+}
+
+
 
 .project img, .service img, .skill img {
     width: 100%;
