@@ -35,6 +35,9 @@ body {
 header {
     background-color: var(--traço);
     width: 100%;
+    position: fixed;
+    top: 0;
+    z-index: 1000;
 }
 
 .w3-button{
@@ -68,6 +71,8 @@ header nav ul li a {
 
 main {
     width: 100%;
+    position: relative;
+    margin-top: 55px !important;
 }
 
 .section-title {
