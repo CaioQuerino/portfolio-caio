@@ -212,11 +212,12 @@ footer {
     position: fixed;
     top: 0;
     left: 0;
+    z-index: 10;
 }
 
 #progressBar {
-    height: 100%;
-    background: #2c2c2c;
+    height: 9.5%;
+    background: #68a775;
     width: 0;
     position: fixed;
 }
