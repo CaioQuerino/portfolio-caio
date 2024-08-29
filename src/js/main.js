@@ -1,3 +1,4 @@
+// scripts.js
 window.onscroll = function() {
     updateProgressBar();
 };
