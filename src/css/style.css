@@ -32,6 +32,10 @@ body {
     align-items: center;
 }
 
+.nav-link:hover {
+    color: #97edaa !important;
+}
+
 header {
     background-color: var(--traço);
     width: 100%;
@@ -43,6 +47,9 @@ header {
 .w3-button {
     border-radius: 3px;
     margin: 5px;
+    background-color: #97edaa !important;
+    color: #000 !important;
+    font-weight: 600;
 }
 
 span {
@@ -152,13 +159,10 @@ main {
     margin: 10px;
 }
 
-.project img {
-    width: 100%;
-}
-
+.project img,
 .service img,
 .skill img {
-    aspect-ratio: 4/4;
+    width: 100%;
 }
 
 .project img, .service img, .skill img {
