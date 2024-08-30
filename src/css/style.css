@@ -43,6 +43,13 @@ header {
     position: fixed;
     top: 0;
     z-index: 1000;
+
+    & .navbar {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 10px 20px;
+    }
 }
 
 .w3-button {
@@ -57,13 +64,7 @@ span {
     color: var(--destaque);
 }
 
-/* Navbar e menu hamburguer */
-.navbar {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 10px 20px;
-}
+
 
 .navbar-brand a {
     color: var(--corFont);
