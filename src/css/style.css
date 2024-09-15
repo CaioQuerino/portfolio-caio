@@ -218,7 +218,7 @@ footer {
 }
 
 #progressBar {
-    height: 9%;
+    height: 10%;
     background: #68a775;
     width: 0;
     position: fixed;
@@ -244,7 +244,7 @@ footer {
     }
 
     #progressBar {
-        height: 7%;
+        height: 9%;
         background: #68a775;
         width: 0;
         position: fixed;
